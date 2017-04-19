@@ -1,0 +1,50 @@
+package EjercicioEnclase;
+import java.util.Scanner;
+
+/**
+ *
+ * Andres Roman
+ * 19/04/2017 
+ *
+ */
+public class EjercicioEnClase {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner datos = new Scanner(System.in);
+        // creacion de variables
+        
+        String dia;
+        
+        // Ingreso de variables
+        System.out.print("Ingrese el  dia \n");
+        dia=datos.next();
+        
+        
+        // menu de opciones
+        switch(dia){
+            case "Lunes":
+                System.out.print("GP \n");
+                break;
+            case "Martes":
+                System.out.print("Contabilidad \n");
+                break;
+            case "Miercoles":
+                System.out.print("Programacion \n");
+                break;
+            case "Jueves":
+                System.out.print("Discretas \n");
+                break;
+            case "Viernes":
+                System.out.print("Nada \n");
+                break;              
+            default :
+                System.out.print("Ingrese un dia correcto \n");
+        }
+        
+            
+    }
+}    
+
